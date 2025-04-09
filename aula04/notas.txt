@@ -1,0 +1,26 @@
+Tipos de Permissões
+usage - Permissão mais simples
+all - Permissão mais alta
+insert, delete, update, create, drop, select, etc - Permissões
+
+Escopo
+Tabela
+bancodedados.tabela
+fatec.alunos
+
+Banco de Dados
+bancodedados.*
+fatec.*
+
+Global
+*.*
+
+Atribuir Permissões
+grant permissao1, permissao2, ..., permissaon
+on escopo
+to usuario;
+
+Remover Permissões
+revoke permissao1, permissao2, ..., permissaon
+on escopo
+from usuario;
