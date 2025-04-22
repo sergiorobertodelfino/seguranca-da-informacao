@@ -19,13 +19,23 @@ desc categorias;
 create or replace user sergio@localhost
 identified by 'q1w2e3r4';
 
+create or replace user patricia@localhost
+identified by 'toor';
+
 -- Visualizar as permissões de um usuário
 show grants for sergio@localhost;
+show grants for patricia@localhost;
 
 -- Atribuir permissões para um usuário
 grant create, insert, select, update
 on *.*
 to sergio@localhost;
 
+grant all 
+on *.*
+to patricia@localhost
+with grant option;
+
 -- Visualizar as permissões de um usuário
 show grants for sergio@localhost;
+show grants for patricia@localhost;
