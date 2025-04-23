@@ -1,0 +1,23 @@
+Criar um Grupo
+create or replace role professor;
+
+Remover um Grupo
+drop role professor;
+
+Visualizar as Permissões de um Grupo
+show grants for professor;
+
+Definir as Permissões de um Grupo
+grant permissao1, permissao2, ..., permissaon
+on escopo
+to grupo
+with grant option;
+
+Remover as Permissões de um Grupo
+revoke permissao1, permissao2, ..., permissaon
+on escopo
+from grupo;
+
+Adicionar um Usuário a um Grupo
+grant grupo
+to usuario@host;
