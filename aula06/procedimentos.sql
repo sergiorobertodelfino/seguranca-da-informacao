@@ -5,7 +5,7 @@ create or replace database fatec;
 use fatec;
 
 -- Troca o delimitador
-delimiter //
+delimiter // 
 
 -- Cria o procedimento
 create or replace procedure exibirgmsg()
@@ -24,4 +24,3 @@ delimiter ;
 
 -- Executa o procedimento
 call exibirgmsg();
-
