@@ -1,3 +1,4 @@
+-- source aula09/usuario.sql
 -- Cria ou substitui um usuário chamado 'sergio' que pode se conectar a partir do localhost,
 -- definindo sua senha como 'q1w2e3r4'.
 create or replace user sergio@localhost

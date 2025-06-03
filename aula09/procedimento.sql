@@ -1,3 +1,5 @@
+-- source aula09/procedimento.sql
+
 -- Cria ou substitui (se já existir) o banco de dados chamado 'fatec'
 create or replace database fatec;
 
